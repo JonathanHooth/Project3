@@ -475,7 +475,7 @@ void dijkstra(GraphAdjList<int>& graph, int nodeAmt, int nodeFrom, int nodeTo) {
 
     //Prints out the time it took
     std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
-    std::cout << "Time took for Breadth First Search = " << std::chrono::duration_cast<std::chrono::microseconds>
+    std::cout << "Time took for Dijkstra's Algorithm = " << std::chrono::duration_cast<std::chrono::microseconds>
             (end - start).count() << " microseconds" << std::endl;
 
     graph.getVertex(nodeFrom)->setColor("green");
