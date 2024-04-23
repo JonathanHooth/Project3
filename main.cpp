@@ -30,7 +30,9 @@ void dijkstra(GraphAdjList<int>& graph, int nodeAmt, int nodeFrom, int nodeTo);
 int main(int argc, char **argv)
 {
 
-    cout << "Welcome to Graph Traversal!\n";
+    cout << "          Welcome to Shortest Path Graph Traversal!\n";
+    std::cout << "------------------------------------------------------------------" << std::endl;
+    std::cout << "This is a program that evaluates shortest paths between two nodes!" << std::endl << std::endl;
 
     Bridges bridges (1, "ProjectThree", "1680912648782");
 
